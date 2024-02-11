@@ -20,3 +20,7 @@ vim.keymap.set('n', '<leader>sw', function()
   })
 end, { desc = '[S]earch current [W]ord' })
 
+vim.keymap.set('n', '<leader>sp', function()
+  require('telescope.builtin').find_files({ default_text = vim.fn.getreg('"')})
+end, { desc = '[S]earch current [P]ath in last yanked register' })
+
