@@ -10,6 +10,10 @@ local theme = {
   tail = 'TabLine',
 }
 
+-- [[Tab keymaps]]
+vim.keymap.set('n','<C-Tab>',':tabnext<CR>',{ desc = '[T]ab next'})
+vim.keymap.set('n','<C-S-Tab>',':tabprevious<CR>',{ desc = '[T]ab previous'})
+
 return {
   "nanozuki/tabby.nvim",
   config = function ()

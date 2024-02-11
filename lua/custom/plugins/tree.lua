@@ -22,8 +22,13 @@ return {
   version = "*",
   config = function()
     require('nvim-tree').setup()
-    vim.keymap.set('n', '<leader>t', ':NvimTreeFindFileToggle<CR>',
+    vim.keymap.set('n', '<leader>tt', ':NvimTreeFindFileToggle<CR>',
       { desc = "nvim-tree: Toggle", noremap = true, silent = true, nowait = true }
     )
+    vim.keymap.set('n', '<leader>t', ':NvimTreeFocus<CR>',
+      { desc = "nvim-tree: Toggle", noremap = true, silent = true, nowait = true }
+    )
+
+
   end,
 }
