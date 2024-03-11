@@ -4,7 +4,7 @@
 vim.keymap.set('t','<C-b>','<C-\\><C-n>',{})
 
 -- [[Options]]
-vim.api.nvim_set_option('shell','/usr/bin/zsh')
+vim.api.nvim_set_option('shell','zsh')
 
 -- [[Hooks]]
 vim.api.nvim_create_autocmd('TermOpen', {
