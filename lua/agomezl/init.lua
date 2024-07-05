@@ -12,4 +12,5 @@ require('agomezl.spellcheck')
 require('agomezl.terminal')
 require('agomezl.whitespaces')
 require('agomezl.keys')
+require('agomezl.treesitter')
 
