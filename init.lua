@@ -103,6 +103,9 @@ require('lazy').setup({
       'L3MON4D3/LuaSnip',
       'saadparwaiz1/cmp_luasnip',
 
+      -- buffer completion
+      'hrsh7th/cmp-buffer',
+
       -- Adds LSP completion capabilities
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-path',
@@ -681,8 +684,9 @@ cmp.setup {
   },
   sources = {
     { name = 'nvim_lsp' },
-    { name = 'luasnip' },
+    { name = 'buffer' },
     { name = 'path' },
+    { name = 'luasnip' },
   },
 }
 
