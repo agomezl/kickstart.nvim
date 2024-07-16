@@ -611,6 +611,8 @@ require('lazy').setup({
         'stylua', -- Used to format Lua code
         'fixjson',
         'black',
+        'buildifier',
+        'rustfmt',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
