@@ -8,6 +8,8 @@ vim.o.cursorline = true
 vim.o.cursorcolumn = true
 vim.o.showtabline = 2
 
+vim.cmd.colorscheme "onedark"
+
 require('agomezl.spellcheck')
 require('agomezl.terminal')
 require('agomezl.whitespaces')

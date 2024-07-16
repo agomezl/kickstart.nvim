@@ -2,4 +2,17 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  'hrsh7th/cmp-buffer',
+  {
+    'navarasu/onedark.nvim',
+    lazy = false,
+    opts = {
+      style = 'dark',
+    },
+  },
+  {
+    'nvim-telescope/telescope.nvim',
+    lazy = false,
+  },
+}
