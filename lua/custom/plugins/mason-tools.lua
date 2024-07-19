@@ -6,6 +6,9 @@ return {
       'fixjson',
       'starpls',
       'black',
-    }
-  }
+      'shellcheck',
+      'shfmt',
+      'markdownlint',
+    },
+  },
 }
